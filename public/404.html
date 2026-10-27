@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex" />
+    <title>VAYRON — Considered Winter Wear</title>
+    <!--
+      GitHub Pages fallback. Unknown paths such as /product/north-down-puffer
+      are served this file. It remembers the requested URL and sends the
+      visitor to the app shell, where src/lib/router.ts restores it.
+      (Netlify/Cloudflare use public/_redirects; Vercel uses vercel.json.)
+    -->
+    <script>
+      (function () {
+        var l = window.location;
+        try {
+          sessionStorage.setItem("vayron:redirect", l.pathname + l.search + l.hash);
+        } catch (e) {}
+        l.replace(l.origin + "/");
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>
